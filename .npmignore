@@ -1,0 +1,7 @@
+src/
+node_modules/
+.mocha.opts.BAK
+.package.json.BAK
+.tsconfig.json.BAK
+mocha.opts
+tsconfig.json

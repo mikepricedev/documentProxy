@@ -1,0 +1,41 @@
+{
+	"name": "document-proxy",
+	"version": "0.0.1",
+	"description": "Class constructed Proxy handler that protects source Objects and Arrays from mutation allowing for divergent mutations.",
+	"main": "build/DocumentProxy.js",
+	"scripts": {
+		"test": "mocha --opts ./mocha.opts",
+		"ts-build": "tsc",
+		"test-watch": "mocha  --opts ./mocha.opts --watch --watch-extensions ts tsx"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/raptor9g/documentProxy.git"
+	},
+	"keywords": [
+		"Non-destructive",
+		"Update",
+		"Divergent",
+		"Mutation",
+		"Proxy",
+		"ES6",
+		"Typescript"
+	],
+	"author": "Michael Price <mikepricedev@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/raptor9g/documentProxy/issues"
+	},
+	"homepage": "https://github.com/raptor9g/documentProxy#readme",
+	"devDependencies": {
+		"@types/chai": "^4.1.2",
+		"@types/mocha": "^2.2.48",
+		"@types/node": "^9.4.6",
+		"chai": "^4.1.2",
+		"mocha": "^5.0.1",
+		"ts-config": "git+ssh://git@github.com/raptor9g/tsConfig.git#v0.0.6",
+		"ts-mocha-opts": "git+ssh://git@github.com/raptor9g/tsMochaOpts.git#v0.0.2",
+		"ts-node": "^4.1.0",
+		"typescript": "^2.7.2"
+	}
+}

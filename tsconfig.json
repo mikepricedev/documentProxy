@@ -1,0 +1,26 @@
+{
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"src/**/*.test.ts"
+	],
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"inlineSourceMap": true,
+		"lib": [
+			"ESNext"
+		],
+		"listEmittedFiles": true,
+		"module": "commonjs",
+		"moduleResolution": "Node",
+		"outDir": "build",
+		"pretty": true,
+		"target": "ES2016"
+	}
+}
